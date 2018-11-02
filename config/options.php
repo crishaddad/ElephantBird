@@ -19,14 +19,14 @@ define(
    FALSE
 );
 
-// BOOLEAN
-// Set to TRUE to expand URLS
-// Set to FALSE to post original t.co URLs
-// NOT FUNCTIONAL 
-define(
-  'EXPAND_URLS',
-   TRUE
-);
+//// BOOLEAN
+//// Set to TRUE to expand URLS
+//// Set to FALSE to post original t.co URLs
+//// NOT FUNCTIONAL 
+//define(
+//  'EXPAND_URLS',
+//   TRUE
+//);
 
 // STRING
 // Text (e.g. some hashtags) to be appended to all Toots
