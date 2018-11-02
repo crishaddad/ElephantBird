@@ -1,0 +1,37 @@
+<?php
+/******************************************************************************
+*  Twitter Login Config
+******************************************************************************/
+
+// STRING
+// Twitter API details
+define(
+  'TWITTER_CONSUMER_KEY',
+  '1234567890abcdefghijklmno'
+);
+
+// STRING
+define(
+  'TWITTER_CONSUMER_SECRET',
+  '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMN'
+);
+
+// STRING
+define(
+  'TWITTER_ACCESS_TOKEN',
+  '12345567-890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKL'
+);
+
+// STRING
+define(
+  'TWITTER_ACCESS_TOKEN_SECRET',
+  '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHI'
+);
+
+// STRING
+// The source account on twitter we want to parse and toot
+define(
+  'SOURCE_TWITTER_HANDLE',
+  'astron-6'
+);
+?>

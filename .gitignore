@@ -1,0 +1,11 @@
+config/*
+!config/advanced.php.example
+!config/advanced.php
+!config/mastodon.php.example
+!config/options.php.example
+!config/options.php
+!config/twitter.php.example
+tools/tmp
+var/tweet.db
+var/test.db
+private/

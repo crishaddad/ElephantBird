@@ -1,0 +1,26 @@
+<?php
+/******************************************************************************
+* Mastodon Login Config 
+******************************************************************************/
+
+// STRING
+// Full url of our instance (including https://)
+define(
+  'MASTODON_INSTANCE_URL',
+  'https://mastodon.social'
+);
+
+// STRING
+// email address used for login to mastodon
+define(
+  'MASTODON_LOGIN',
+  'mastodon.account@example.com'
+);
+
+// STRING
+define(
+  'MASTODON_ACCESS_TOKEN',
+  '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12'
+);
+
+?>
