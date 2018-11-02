@@ -71,10 +71,10 @@ define(
 // "birdsite" -> '@username@birdsite.com'
 // "brackets" -> '(@)username'
 // "link" ->  'https://twitter.com/username'
-// default: mastodon
+// default: twitter
 define(
   'REWRITE_HANDLE_STYLE',
-  'mastodon'
+  'twitter'
 );
 
 // STRING
