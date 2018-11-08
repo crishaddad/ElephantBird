@@ -86,7 +86,7 @@ Elephantbird can be configured with multiple profiles using command line
 options to pass a profile directory: 
 
 ``` bash
-./ElephantBird -c /path/to/profile/directory
+./ElephantBird.php -c /path/to/profile/directory
 ```
 
 A profile dir must contain a full complement of all 4 config files: 
@@ -98,7 +98,7 @@ A profile dir must contain a full complement of all 4 config files:
 There are numerous other command line options that can be found with:
 
 ``` bash
-./ElephantBird --help
+./ElephantBird.php --help
 ```
 
 Command line options passed at run time will override or augment config
