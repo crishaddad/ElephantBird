@@ -44,14 +44,14 @@ cd ~/ElephantBird
 - Create your twitter.php config and edit it with API details
 
 ``` bash
-cp config/twitter.php.example twitter.php
+cp config/twitter.php.example config/twitter.php
 vi config/twitter.php
 ```
 
 - Create your mastodon.php config and edit it with API details
 
 ``` bash
-cp config/mastodon.php.example mastodon.php
+cp config/mastodon.php.example config/mastodon.php
 vi config/mastodon.php
 ```
 
