@@ -24,6 +24,7 @@ Features
 Installation
 ------------
 - Install dependencies:
+
 ``` bash
 sudo apt-get install php php-curl php-sqlite3
 ```
@@ -35,7 +36,10 @@ git clone http://gitlab.com/csa/ElephantBird.git ~/ElephantBird
 ```
 
 - Go to the repo directory 
-  `cd ~/ElephantBird`
+
+``` bash
+cd ~/ElephantBird
+```
 
 - Create your twitter.php config and edit it with API details
 
@@ -92,6 +96,7 @@ A profile dir must contain a full complement of all 4 config files:
   `advanced.php`
 
 There are numerous other command line options that can be found with:
+
 ``` bash
 ./ElephantBird --help
 ```
