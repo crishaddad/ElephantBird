@@ -24,34 +24,56 @@ Features
 Installation
 ------------
 - Install dependencies:
-  `sudo apt-get install php php-curl php-sqlite3`
+  ``` bash
+  sudo apt-get install php php-curl php-sqlite3
+  ```
 
 - Clone repo 
-  `git clone http://gitlab.com/csa/ElephantBird.git ~/ElephantBird`
+
+``` bash
+git clone http://gitlab.com/csa/ElephantBird.git ~/ElephantBird
+```
 
 - Go to the repo directory 
   `cd ~/ElephantBird`
 
 - Create your twitter.php config and edit it with API details
-  `cp config/twitter.php.example twitter.php`
-  `vi config/twitter.php`
+
+``` bash
+cp config/twitter.php.example twitter.php
+vi config/twitter.php
+```
 
 - Create your mastodon.php config and edit it with API details
-  `cp config/mastodon.php.example mastodon.php`
-  `vi config/mastodon.php`
+
+``` bash
+cp config/mastodon.php.example mastodon.php
+vi config/mastodon.php
+```
 
 - [Optional] Set up your application options 
-  `vi config/options.php`
-  `vi config/advanced.php`
+
+``` bash 
+vi config/options.php
+vi config/advanced.php
+```
 
 - Run ElephantBird.php 
-  `./ElephantBird.php`
+
+```bash
+./ElephantBird.php
+```
 
 - Configure a cronjob as required e.g. 
-  `crontab -e`
 
-  # cron job to run every 30 minutes
-  `*/30 * * * *  cd ~/ElephantBird && ./ElephantBird.php`
+``` bash
+crontab -e
+```
+
+``` cron
+# cron job to run every 30 minutes
+*/30 * * * *  cd ~/ElephantBird && ./ElephantBird.php
+```
 
 Advanced Usage
 --------------
@@ -59,7 +81,9 @@ Advanced Usage
 Elephantbird can be configured with multiple profiles using command line
 options to pass a profile directory: 
 
-  `./ElephantBird -c /path/to/profile/directory`
+``` bash
+./ElephantBird -c /path/to/profile/directory
+```
 
 A profile dir must contain a full complement of all 4 config files: 
   `twitter.php`
@@ -68,15 +92,17 @@ A profile dir must contain a full complement of all 4 config files:
   `advanced.php`
 
 There are numerous other command line options that can be found with:
-  `./ElephantBird --help`
+``` bash
+./ElephantBird --help
+```
 
 Command line options passed at run time will override or augment config
 in the profile dir, dependent on context:
 
-- "--dry-run" can only FORCE a dry run, not disable it
-- "--verbose" can only INCREASE verbosity, not disable it
-- "--config" will ALWAYS OVERRIDE default config
-- "--tweets" will ALWAYS OVERRIDE configured value
+- `--dry-run` can only FORCE a dry run, not disable it
+- `--verbose` can only INCREASE verbosity, not disable it
+- `--config` will ALWAYS OVERRIDE default config
+- `--tweets` will ALWAYS OVERRIDE configured value
 
 Wishlist
 --------
