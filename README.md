@@ -24,9 +24,9 @@ Features
 Installation
 ------------
 - Install dependencies:
-  ``` bash
-  sudo apt-get install php php-curl php-sqlite3
-  ```
+``` bash
+sudo apt-get install php php-curl php-sqlite3
+```
 
 - Clone repo 
 
