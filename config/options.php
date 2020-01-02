@@ -19,15 +19,6 @@ define(
    FALSE
 );
 
-//// BOOLEAN
-//// Set to TRUE to expand URLS
-//// Set to FALSE to post original t.co URLs
-//// NOT FUNCTIONAL 
-//define(
-//  'EXPAND_URLS',
-//   TRUE
-//);
-
 // STRING
 // Text (e.g. some hashtags) to be appended to all Toots
 define(
@@ -36,7 +27,7 @@ define(
 );
 
 // STRING
-// Text (e.g. some hashtags) to be appended to all Toots
+// Text to be used as accessibility text for all images
 define(
   'ACCESSIBILITY_TEXT',
   'Sorry; this image was uploaded by a bot that cannot describe its content.'

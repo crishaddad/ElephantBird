@@ -23,13 +23,6 @@ define(
   '/api/v1/media'
 );
 
-// INTEGER
-// Not used 
-define(
-  'MAX_URL_HOPS',
-  5
-);
-
 // BOOLEAN
 define(
   'DISABLE_IDEMPOTENCY_KEY',
@@ -80,5 +73,22 @@ define(
 define(
   'MY_TMP',
   '/tmp/ElephantBird/'
+);
+
+// BOOLEAN
+// Set to TRUE to expand URLS
+// Set to FALSE to post original t.co URLs
+// NOT FUNCTIONAL / NOT USED [work in progress]
+define(
+  'EXPAND_URLS',
+   TRUE
+);
+
+// INTEGER
+// Number of hops to make when expanding URL 
+// NOT FUNCTIONAL / NOT USED [work in progress]
+define(
+  'MAX_URL_HOPS',
+  5
 );
 ?>
